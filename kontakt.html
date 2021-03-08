@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Kontakt </title>
+		<meta charset="utf-8">
+		
+		<link rel="shortcut icon" href="img/icon.ico"/>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<meta name="keywords" content="zeleni, caj, kontakt"/>
+		<meta name="description" content="Ukoliko zelite da me kontaktirate mozete to uciniti..."/>
+	</head>
+	<body>
+	<div id="wrapper">
+			<div id="header"> 
+				<div id="omothedera">
+					<div id="logo">
+						<a href="index.html" title="Početna">
+							<h1>
+								Zeleni Čaj
+							</h1>
+						</a>
+					</div>
+					<div id="drustveneMreze">
+							<p>
+								Posetite nas:
+							</p>
+								<a href="http://www.facebook.com" target="_blank" title="Facebook"> <i class="fab fa-facebook webicon"></i> </a>
+								<a href="http://www.instagram.com" title="Instagram" target="_blank"> <i class="fab fa-instagram webicon"></i> </a>
+								<a href="http://www.twitter.com" title="Twitter" target="_blank"> <i class="fab fa-twitter webicon"></i> </a>
+								<a href="rss.xml" title="RSS" target="_blank"> <i class="fas fa-rss webicon"></i> </a> 
+							<p>
+								Ocenite nas!
+							</p>
+							<i class="fas fa-thumbs-up" id="like" ></i>
+							<i class="fas fa-thumbs-down" id="dislike"></i>
+					</div>
+				</div>	
+			</div>
+		
+			<div id="meni">
+				<ul> 
+					<li> <a href="index.html" title="Početna"> Početna </a> </li>
+					<li> <a href="nacin-pripreme.html" title="Način pripreme"> Način pripreme  </a> </li>
+					<li> <a href="autor.html" title="O autoru"> O autoru </a> </li>
+					<li class="aktivanLink"> <a href="kontakt.html" title="kontakt"> Kontakt </a> </li>
+				</ul>
+			</div>
+		
+		<!-- 2 diva unutar klasa, tekst i slika -->
+		<div id="Kontakt">
+			<div id="naslovkontakt">
+				<h2>
+					Ukoliko imate pitanja kontaktirajte nas!
+				</h2>
+			</div>
+			<div id="forma">
+				<form action="" method="POST" id="form" name="forma">
+					<table>
+						<thead>							
+							<tr> <td colspan="2"> <h2> Unesite podatke!  <i class="fas fa-smile"> </i></h2>  </td> </tr>
+						</thead>
+						<tbody>
+							<tr> <td class="prvakolona"> Ime: </td>  <td> <input type="text" maxlength="20" class="drugakolona" placeholder="Unesite Vaše ime" required="required"/> </td> </tr>
+							<tr> <td class="prvakolona"> Prezime: </td> <td> <input type="text" maxlength="20" class="drugakolona" placeholder="Unesite Vaše prezime" required="required"/> </td> </tr>
+							<tr> <td class="prvakolona"> E-mail: </td> <td> <input type="email" class="drugakolona" placeholder="Unesite Vašu e-mail adresu"/> </td> </tr>
+							<tr>
+							<td class="prvakolona"> Tema: </td>
+							<td>
+							<select>
+							<option selected="selected"> Izaberite... </option>
+							<option> Čaj </option>
+							<option> Autor </option>
+							<option> Ostalo...</option>
+							</select>
+							</td>
+							</tr>
+							<tr> <td class="prvakolona"> Poruka </td> </tr>
+							<tr> <td colspan="2">  <textarea id="poruka" placeholder="Ovde unesite tekst... " rows="" cols="" required="required"></textarea>  </td> </tr>
+							<tr> <td> <input type="submit" value="Pošalji" class="button"> </td> <td> <input type="reset" class="button" value="Obriši"/> </td> </tr>
+						</tbody>		
+					</table>
+				</form>
+			</div>
+		</div>
+		<div id="footer"> <p> 2018 &copy; Stefan Bogdanovski </p>
+		</div>
+	</div>	
+	</body>
+
+
+</html>
